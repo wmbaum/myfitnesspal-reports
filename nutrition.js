@@ -104,24 +104,26 @@
 
             this.segments = {
                 nutrition: [
-                    'Net Calories',
                     'Calories',
+                    'Net Calories',
+                    'Protein',
                     'Carbs',
                     'Fat',
-                    'Protein',
+                    'Fiber',
+                    'Sugar',
+                    'Sodium',
+                    'Potassium',
+                    'Vitamin A',
+                    'Vitamin C',
+                    'Iron',
+                    'Calcium'
+                    /*
                     'Saturated Fat',
                     'Polyunsaturated Fat',
                     'Monounsaturated Fat',
                     'Trans Fat',
                     'Cholesterol',
-                    'Sodium',
-                    'Potassium',
-                    'Fiber',
-                    'Sugar',
-                    'Vitamin A',
-                    'Vitamin C',
-                    'Iron',
-                    'Calcium'
+                    */
                 ],
                 fitness: [
                     'Calories Burned',
