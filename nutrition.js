@@ -774,7 +774,7 @@
                 {
                     label: this.field,
                     data : this._parent.allData[this.field],
-                    bars: { show: true, barWidth: 86400000*0.8, align: "right" },
+                    bars: { show: true, barWidth: 86400000*0.8, align: "left" },
                     yaxis: 1
                 },
                 {
