@@ -716,8 +716,8 @@
                     {mode: "time", labelWidth: 30},
                 ],
                 yaxes: [
-                    {min: 0},
-                    {position: 'right', labelWidth: 30}
+                    {position: 'right', min: null},
+                    {position: 'left', labelWidth: 30, min: null}
                 ],
                 series: {curvedLines: {active: true}},
                 selection: {
@@ -771,8 +771,7 @@
                 {
                     label: this.field,
                     data : this._parent.allData[this.field],
-                    lines: { show: true, lineWidth: 3},
-                    curvedLines: {apply:true},
+                    bars: { show: true, barWidth: 86400000*0.8, align: "right" },
                     yaxis: 1
                 },
                 {
