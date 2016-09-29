@@ -130,7 +130,8 @@
                     'Exercise Minutes'
                 ],
                 progress: [
-                    '1'
+                    "1",
+                    "99459657"
                 ]
             };
 
